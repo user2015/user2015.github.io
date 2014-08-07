@@ -5,5 +5,5 @@ UseR! 2015 Web Pages
 
 Publish
 ==================
-rsync --archive --compress --partial --progress ./ [username]@[server]:/web/user2015.math.aau.dk/http
+rsync --archive --compress --partial --progress --exclude '.git' --exclude '*~' ./ [username]@[server]:/web/user2015.math.aau.dk/http
 
