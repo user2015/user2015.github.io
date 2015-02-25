@@ -22,6 +22,41 @@
 <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
 <link href="user.css" rel="stylesheet" media="screen">
 
+<style>
+  <!-- PLATINUM -->
+  table.platinum td{
+  vertical-align: center;
+  width: 400px;
+  }
+  img.platinum{
+  height: 150px;
+  }
+  <!-- GOLD -->
+  table.gold td{
+  vertical-align: center;
+  width: 300px;
+  }
+  img.gold{
+  height: 110px;
+  }
+  <!-- SILVER -->
+  table.silver td{
+  vertical-align: center;
+  width: 300px;
+  }
+  img.silver{
+  height: 80px;
+  }
+  <!-- BRONZE -->
+  table.bronze td{
+  vertical-align: center;
+  width: 150px;
+  }
+  img.bronze{
+  height: 50px;
+  }
+</style>
+
 </head>
 <body data-spy="scroll" data-target=".sidebar" data-offset="50">
 
@@ -35,7 +70,7 @@
 	  </p>
 	</div>
       </header>
-      
+
       <div class="container">
 	<div class="row">
 	  
@@ -54,6 +89,7 @@
 		  <!--<li class="active"><a href="#latest"><i class="icon-bullhorn icon-white"></i> Latest News</a></li> -->
 		  <li class="active"><a href="#invited-talks"><i class="icon-user"></i>Invited Talks</a></li>
 		  <li><a href="#tutorials"><i class="icon-chevron-right"></i>Tutorials</a></li>
+		  <li><a href="#sponsor"><i class="icon-plus-sign"></i>Sponsors</a></li>
 		  <li><a href="#abstract"><i class="icon-edit"></i>Abstract submission</a></li>
 		  <li><a href="#PC"><i class="icon-cog"></i>Programme committee</a></li>  
 		  <li><a href="#dates"><i class="icon-calendar"></i>Important Dates</a></li>
@@ -128,7 +164,7 @@
 		  <img src="susan.jpg" alt="Susan Holmes" style="height:190px;"></a>
 	      </p>
 	    </section>
-
+	    
             <section id="tutorials">
 	      <span class="page-header"><h1>Tutorials</h1></span> The
 	      following 16 tutorials will be offered free of charge to
@@ -158,6 +194,52 @@
 		More elaborate descriptions of the content follow.
 	    </section>
  
+	    <section id="sponsor">
+	      <span class="page-header"><h1>Sponsors</h1></span>
+	      The execution of useR! 2015 would not have been possible
+	      without the strong commitment and generous support from
+	      our sponsors. 
+
+	      <h3>Platinum</h3>
+	      <table border="0" class="platinum">
+		<tr>
+		  <td><a href="http://www.rstudio.com" target="_blank">
+		  <img src="sponsor/RStudio.png" alt="RStudio" class="platinum"></a></td>
+		</tr>
+	      </table>
+
+	      <h3>Gold</h3>
+	      <table border="0" class="gold">
+		<tr>
+		  <td><a href="http://www.omfonden.dk" target="_blank">
+		  <img src="sponsor/omf.gif" alt="Otto M&oslash;nsted Fonden" class="gold"></a></td>
+		</tr>
+	      </table>
+
+
+	      <h3>Silver</h3>
+	      <table border="0" class="silver">
+		<tr>
+		  <td><a href="http://www.novonordisk.com" target="_blank"> 
+		      <img src="sponsor/novonordisk.png" alt="Novo
+		      Nordisk" class="silver"></a></td>
+		  <td><a href="http://www.google.com" target="_blank"> 
+		      <img src="sponsor/Google.png" alt="Google" class="silver"></a></td>
+		</tr>
+	      </table>
+
+	      <h3>Bronze</h3>
+	      <table border="0" class="bronze">
+		<tr>
+		  <td><a href="http://www.hugin.com" target="_blank"> 
+		  <img src="sponsor/hugin.png" alt="HUGIN" class="bronze"></a></td>
+		</tr>
+	      </table>	      
+	      
+
+
+	    </section>
+
             <section id="abstract">
 	      <span class="page-header"><h1>Abstract submission</h1></span>
 	      <p>The abstract submission will be opened during February 2015. We
@@ -165,7 +247,7 @@
 	      our <a href="#maillist">mailing list</a> when abstracts
 	      can be submitted.</p>
 
-	      <p>The abstracts should be limited to 250 words and
+	      <p>The abstracts should be limited to 200 words and
 		describe the content of the contributed material. In
 		addition, 5 keywords to be used in the review phase
 		must be supplied. Hence, these keywords should capture
