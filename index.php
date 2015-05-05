@@ -133,8 +133,9 @@
             
             #remove the directory path we don't want
             //echo '<p>REQUEST_URI = ' . $_SERVER['REQUEST_URI'] . '</p>';
-            $request  = str_replace('/new/', "", $_SERVER['REQUEST_URI']);
+            //$request  = str_replace('/new/', "", $_SERVER['REQUEST_URI']);
             //$request  = $_SERVER['REQUEST_URI'];
+            $request  = str_replace('/', "", $_SERVER['REQUEST_URI']);
            
             #split the path by '/'
             $params     = split('/', $request);
@@ -163,9 +164,6 @@
         </div>
       </div>
       <div class="raw footer">
-        <p>
-        The useR! Conference 2015. June 30 - July 3, 2015. Aalborg, Denmark.
-        </p>
         <p>
 
 	      <!--<span class="page-header"><h1>Sponsors</h1></span>-->
