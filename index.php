@@ -249,6 +249,10 @@
 	      <a href="http://www.kdnuggets.com"
 	      target="_blank"><img class="img-responsive" src="img/sponsor/kdnuggets.png"
 	      alt="KDnuggets"></a>
+
+	      <a href="http://www.r-bloggers.com"
+	      target="_blank"><img class="img-responsive" src="img/sponsor/Rblogger35.png"
+	      alt="R-bloggers"></a>
 	    
 	    </p>		
 
