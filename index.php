@@ -106,6 +106,7 @@
                 <li><a href="./social_programme">Social Programme</a></li>
                 <li><a href="./whats_on">What's on</a></li>
                 <li><a href="./about_conference">About the Conference</a></li>
+                <li><a href="./organising_committee">Organising Committee</a></li>
                 <li><a href="./accommodation">Accommodation</a></li>
                 <li><a href="./travel_arrangements">Travel Arrangements</a></li>
               </ul>
@@ -164,100 +165,98 @@
         </div>
       </div>
       <div class="raw footer">
-        <p>
-
+      
 	      <!--<span class="page-header"><h1>Sponsors</h1></span>-->
+	      <p>
 	      The execution of useR! 2015 would not have been possible
 	      without the strong commitment and generous support from
 	      our sponsors. 
+	      </p>
 	      
-	      <h3>Platinum</h3>
+	      <h2>Platinum</h2>
 	      <a href="http://www.rstudio.com"
-	      target="_blank"><img class="img-responsive" src="img/sponsor/RStudio150.png"
+	      target="_blank"><img class="img-sponsor" src="img/sponsor/RStudio150.png"
 	      alt="RStudio"></a>
 
 	      <a href="http://www.teradata.com"
-	      target="_blank"><img class="img-responsive" src="img/sponsor/teradata150.png"
+	      target="_blank"><img class="img-sponsor" src="img/sponsor/teradata150.png"
 				   alt="Teradata"></a>
 
 	      <a href="http://www.revolutionanalytics.com"
-	      target="_blank"><img class="img-responsive" src="img/sponsor/revolution150.png"
+	      target="_blank"><img class="img-sponsor" src="img/sponsor/revolution150.png"
 				   alt="Revolution Analytics"></a>
 
-	      <h3>Gold</h3>     
+	      <h2>Gold</h2> 
 	      <a href="http://www.alteryx.com"
-	      target="_blank"><img class="img-responsive" src="img/sponsor/alteryx110.png"
+	      target="_blank"><img class="img-sponsor" src="img/sponsor/alteryx110.png"
 	      alt="Alteryx"></a>
 
 	      <a href="http://spotfire.tibco.com"
-	      target="_blank"><img class="img-responsive" src="img/sponsor/TIBCO110.png"
+	      target="_blank"><img class="img-sponsor" src="img/sponsor/TIBCO110.png"
 	      alt="TIBCO Spotfire"></a>
 	      
 	      <a href="http://www.h20.ai"
-	      target="_blank"><img class="img-responsive" src="img/sponsor/h2o110.png"
+	      target="_blank"><img class="img-sponsor" src="img/sponsor/h2o110.png"
 	      alt="h20"></a>
 
 	      <a href="http://www.hp.com"
-	      target="_blank"><img class="img-responsive" src="img/sponsor/hp110.png"
+	      target="_blank"><img class="img-sponsor" src="img/sponsor/hp110.png"
 	      alt="HP"></a>
 	      
-	      <h3>Silver</h3>
+	      <h2>Silver</h2>
 	      <a href="http://www.novonordisk.com"
-	      target="_blank"><img class="img-responsive" src="img/sponsor/novonordisk80.png"
+	      target="_blank"><img class="img-sponsor" src="img/sponsor/novonordisk80.png"
 	      alt="Novo Nordisk"></a>
 
 	      <a href="http://www.google.com"
-	      target="_blank"><img class="img-responsive" src="img/sponsor/Google80.png"
+	      target="_blank"><img class="img-sponsor" src="img/sponsor/Google80.png"
 	      alt="Google"></a>
 
 	      <a href="http://www.quantide.com"
-	      target="_blank"><img class="img-responsive" src="img/sponsor/quantide80.png"
+	      target="_blank"><img class="img-sponsor" src="img/sponsor/quantide80.png"
 	      alt="Quantide"></a>
 
 	      <a href="http://www.openanalytics.eu"
-	      target="_blank"><img class="img-responsive" src="img/sponsor/openanalytics80.png"
+	      target="_blank"><img class="img-sponsor" src="img/sponsor/openanalytics80.png"
 	      alt="Open Analytics"></a>
 
 	      <a href="http://www.mango-solutions.com"
-	      target="_blank"><img class="img-responsive" src="img/sponsor/mango80.png"
+	      target="_blank"><img class="img-sponsor" src="img/sponsor/mango80.png"
 	      alt="Mango Solutions"></a>
 
 
-	      <h3>Bronze</h3>
+	      <h2>Bronze</h2>
 
 	      <a href="http://www.hugin.com"
-	      target="_blank"><img class="img-responsive" src="img/sponsor/hugin50.png"
+	      target="_blank"><img class="img-sponsor" src="img/sponsor/hugin50.png"
 	      alt="HUGIN"></a>
 
 	      <a href="http://www.crcpress.com/"
-	      target="_blank"><img class="img-responsive" src="img/sponsor/crc50.png" alt="CRC
+	      target="_blank"><img class="img-sponsor" src="img/sponsor/crc50.png" alt="CRC
 	      Press"></a>
 
 	      <a href="http://www.cambridge.org/"
-	      target="_blank"><img class="img-responsive" src="img/sponsor/Cambridge50.png"
+	      target="_blank"><img class="img-sponsor" src="img/sponsor/Cambridge50.png"
 	      alt="Cambridge University Press"></a>
 
 	      <a href="http://www.csgb.dk/"
-	      target="_blank"><img class="img-responsive" src="img/sponsor/csgb50.png"
+	      target="_blank"><img class="img-sponsor" src="img/sponsor/csgb50.png"
 	      alt="CSGB"></a>
 
 	      <a href="http://www.springer.com/"
-	      target="_blank"><img class="img-responsive" src="img/sponsor/Springer50.png"
+	      target="_blank"><img class="img-sponsor" src="img/sponsor/Springer50.png"
 	      alt="Springer"></a>
 	      	      	      
-	      <h3>Media</h3>
+	      <h2>Media</h2>
 	      <a href="http://www.kdnuggets.com"
-	      target="_blank"><img class="img-responsive" src="img/sponsor/kdnuggets.png"
+	      target="_blank"><img class="img-sponsor" src="img/sponsor/kdnuggets.png"
 	      alt="KDnuggets"></a>
 
 	      <a href="http://www.r-bloggers.com"
-	      target="_blank"><img class="img-responsive" src="img/sponsor/Rblogger35.png"
+	      target="_blank"><img class="img-sponsor" src="img/sponsor/Rblogger35.png"
 	      alt="R-bloggers"></a>
 	    
-	    </p>		
-
       </div>
-
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>

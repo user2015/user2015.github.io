@@ -70,8 +70,7 @@
 
 	      <h4><a href="http://www.visitaalborg.com/ln-int/aalborg/first-hotel-europa">First
 	      Hotel
-	      Europa</a><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></h4>
-
+	      Europa</a> &#9733;&#9733;&#9733;&#9733;</h4>
 	      <p>
 		First Hotel Europa offers 168 modern, air-conditioned
 		rooms with free wireless internet access. The hotel is
@@ -104,8 +103,8 @@
 		For more information on the hotel, please visit: <a href="http://www.visitaalborg.com/ln-int/aalborg/first-hotel-europa">First Hotel Europa</a>
 	      </p>
 
-	      <h4><a href="href=http://www.visitaalborg.com/ln-int/aalborg/hotel-chagall">Hotel
-	      Chagall</a><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></h4>
+	      <h4><a href="http://www.visitaalborg.com/ln-int/aalborg/hotel-chagall">Hotel
+	      Chagall</a> &#9733;&#9733;&#9733;</h4>
 
 	      <p>
 		Hotel Chagall is situated in the heart of Aalborg
@@ -135,9 +134,9 @@
 For more information on the hotel, please visit: <a href="http://www.visitaalborg.com/ln-int/aalborg/hotel-chagall">Hotel Chagall</a>
 	      </p>
 
-	      <h4><a "http://www.visitaalborg.com/ln-int/aalborg/hotel-cabinn-aalborg">Hotel
+	      <h4><a href="http://www.visitaalborg.com/ln-int/aalborg/hotel-cabinn-aalborg">Hotel
 	      CABINN
-	      Aalborg</a><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></h4>
+	      Aalborg</a> &#9733;&#9733;</h4>
 
 	      <p>
 		Since October 2009, CABINN has welcomed guests at this
