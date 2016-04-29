@@ -9,7 +9,7 @@
 		<tbody>
 		  <tr><th>Early (before 10 May 2015) </th><td>€125</td><td>€275</td><td>€425</td></tr>
 		  <tr><th>Regular (before 01 June 2015) </th><td>€150</td><td>€325</td><td>€475</td></tr>
-		  <tr><th>Late (before 21 June 2015)</th><td>€200</td><td>€375</td><td>€525</td></tr>
+		  <tr><th>Late (before 26 June 2015)</th><td>€200</td><td>€375</td><td>€525</td></tr>
 		  <tr><th>On-Site</th><td>€250</td><td>€525</td><td>€675</td></tr>
 		</tbody>
 	      </table>

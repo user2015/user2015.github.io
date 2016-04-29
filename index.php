@@ -25,6 +25,11 @@
       <script src="js/html5shiv.min.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
   </head>
   <body>
   
@@ -79,8 +84,11 @@
 
           <div class="row">
             <div class="col-xs-4 col-sm-12">
+	      <p><a href="./"><img src="gfx/useR2015.png" alt="useR! 2015" style="width: 100%" /></a></p>
+	<!--
               <p><a href="./"><img src="gfx/useR-middle.png" alt="useR!" style="width: 100%" /></a></p>
               <p>June 30 - July 3, 2015<br />Aalborg, Denmark</p>
+	-->
               <p>Questions? Kindly contact <a href="mailto:user2015@math.aau.dk"><code>user2015 [at] math.aau.dk</code></a>.</p>
               <p><small><a href="./">[Home]</a></small></p>
             </div>
@@ -88,11 +96,22 @@
             <div class="col-xs-4 col-sm-12">
               <h2>Conference</h2>
               <ul>
+		<li><a href="./program">Conference Program</a></li>
+	      </ul>
+	      <ul>	
+		<li><a href="./oral_sessions">Oral Sessions</a></li>
                 <li><a href="./invited_talks">Invited Talks</a></li>
-                <li><a href="./tutorials">Tutorials</a></li>
-                <!--<li><a href="./tba">Sponsors</a></li>-->
-                <li><a href="./abstract_submission">Abstract Submission</a></li>
-                <li><a href="./conference_overview">Conference Overview</a></li>
+                <li><a href="./contributed_talks">Contributed Talks</a></li>
+	        <li><a href="./lightning_talks">Lightning Talks</a></li>
+	        <li><a href="./poster_session">Posters</a></li>
+                <li><a href="./sponsor_session">Sponsor Session</a></li>
+                <li><a href="./book_of_abstracts">Book of Abstracts</a></li>
+	      </ul>
+	      <ul>
+                <li><a href="./tutorials">Tutorials</a> | <a href="./pre_tutorials">Pre-Tutorial</a></li>
+                <li><a href="./abstract_submission">Abstract Submission</a></li>	    
+      		<li><a href="./conference_venue">Conference Venue</a></li>
+                <li><a href="./poster">Free printing of Posters</a></li>
                 <li><a href="./programme_committee">Programme Committee</a></li>
                 <li><a href="./important_dates">Important Dates</a></li>
                 <li><a href="./registration">Registration</a></li>
@@ -101,7 +120,12 @@
             
             <div class="col-xs-4 col-sm-12">
               <h2>Misc</h2>
-              <ul>                
+	      <ul>
+		<li><a href="./FAQ">FAQ</a></li>
+	      </ul>
+              <ul>
+		<li><a href="./behaviouR">behaviouR!</a></li>
+		<li><a href="./exhibitors_guide">Exhibitors Guide</a></li>	      
                 <li><a href="./maillist">Maillist</a></li>
                 <li><a href="./social_programme">Social Programme</a></li>
                 <li><a href="./whats_on">What's on</a></li>
@@ -112,7 +136,10 @@
               </ul>
             </div>
 
-
+	<div class="col-xs-4 col-sm-12">
+              <p><a href="./"><img src="gfx/useR-middle.png" alt="useR!" style="width: 100%" /></a></p>
+              <p>June 30 - July 3, 2015<br />Aalborg, Denmark</p>
+	</div>
           </div>
 
 
@@ -164,7 +191,7 @@
 
         </div>
       </div>
-      <div class="raw footer">
+      <div class="raw footer" id="sponsor">
       
 	      <!--<span class="page-header"><h1>Sponsors</h1></span>-->
 	      <p>
@@ -173,7 +200,12 @@
 	      our sponsors. 
 	      </p>
 	      
-	      <h2>Platinum</h2>
+	      <h2 id="diamond">Diamond</h2>
+	      <a href="http://www.datarobot.com"
+	      target="_blank"><img class="img-sponsor" src="img/sponsor/datarobot175.png"
+	      alt="DataRobot"></a>
+
+	      <h2 id="platinum">Platinum</h2>
 	      <a href="http://www.rstudio.com"
 	      target="_blank"><img class="img-sponsor" src="img/sponsor/RStudio150.png"
 	      alt="RStudio"></a>
@@ -186,7 +218,7 @@
 	      target="_blank"><img class="img-sponsor" src="img/sponsor/revolution150.png"
 				   alt="Revolution Analytics"></a>
 
-	      <h2>Gold</h2> 
+	      <h2 id="gold">Gold</h2> 
 	      <a href="http://www.alteryx.com"
 	      target="_blank"><img class="img-sponsor" src="img/sponsor/alteryx110.png"
 	      alt="Alteryx"></a>
@@ -203,7 +235,7 @@
 	      target="_blank"><img class="img-sponsor" src="img/sponsor/hp110.png"
 	      alt="HP"></a>
 	      
-	      <h2>Silver</h2>
+	      <h2 id="silver">Silver</h2>
 	      <a href="http://www.novonordisk.com"
 	      target="_blank"><img class="img-sponsor" src="img/sponsor/novonordisk80.png"
 	      alt="Novo Nordisk"></a>
@@ -216,6 +248,10 @@
 	      target="_blank"><img class="img-sponsor" src="img/sponsor/quantide80.png"
 	      alt="Quantide"></a>
 
+	      <a href="http://www.ibm.com"
+	      target="_blank"><img class="img-sponsor" src="img/sponsor/IBM80.png"
+	      alt="IBM"></a>
+
 	      <a href="http://www.openanalytics.eu"
 	      target="_blank"><img class="img-sponsor" src="img/sponsor/openanalytics80.png"
 	      alt="Open Analytics"></a>
@@ -224,8 +260,11 @@
 	      target="_blank"><img class="img-sponsor" src="img/sponsor/mango80.png"
 	      alt="Mango Solutions"></a>
 
+	      <a href="http://www.vestas.com"
+	      target="_blank"><img class="img-sponsor" src="img/sponsor/vestas80.png"
+	      alt="Vestas"></a>
 
-	      <h2>Bronze</h2>
+	      <h2 id="bronze">Bronze</h2>
 
 	      <a href="http://www.hugin.com"
 	      target="_blank"><img class="img-sponsor" src="img/sponsor/hugin50.png"
@@ -246,8 +285,16 @@
 	      <a href="http://www.springer.com/"
 	      target="_blank"><img class="img-sponsor" src="img/sponsor/Springer50.png"
 	      alt="Springer"></a>
+
+	      <a href="http://www.datacamp.com/"
+	      target="_blank"><img class="img-sponsor" src="img/sponsor/datacamp50.png"
+	      alt="DataCamp"></a>
+
+	      <a href="http://www.wiley.com/"
+	      target="_blank"><img class="img-sponsor" src="img/sponsor/wiley50.png"
+	      alt="Wiley"></a>
 	      	      	      
-	      <h2>Media</h2>
+	      <h2 id="media">Media</h2>
 	      <a href="http://www.kdnuggets.com"
 	      target="_blank"><img class="img-sponsor" src="img/sponsor/kdnuggets.png"
 	      alt="KDnuggets"></a>
@@ -258,10 +305,6 @@
 	    
       </div>
     </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
 
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
     

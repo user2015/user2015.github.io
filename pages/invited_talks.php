@@ -1,3 +1,14 @@
+<script type="text/javascript">
+function GoBack(a){
+  if(window.location.hash) {
+	var hh = window.location.hash.substring(1);
+ 	if(hh === a){ document.write('<a href="javascript: history.go(-1)">Go back</a>'); }
+} else {
+  // Fragment doesn't exist
+}
+}
+</script>
+
 <h1>Invited Talks</h1>
 <p>
 	We are excited to announce the invited speakers useR! 2015 in
@@ -21,7 +32,7 @@
 	<a href="http://school.maths.uwa.edu.au/~adrian">
 	  <img src="img/invited_talks/adrian.jpg" alt="Adrian Baddeley" style="height:140px;"></a>
 	<a href="http://www.stats.ox.ac.uk/~steffen/">
-	  <img src="img/invited_talks/steffen.jpg" alt="Steffen Lauritzen" style="height:140px;"></a>
+	  <img src="img/invited_talks/lauritzen.jpg" alt="Steffen Lauritzen" style="height:140px;"></a>
 	<a href="http://dicook.public.iastate.edu/">
 	  <img src="img/invited_talks/dicook.jpg" alt="Di Cook" style="height:140px;"></a>
 	<a href="http://blog.r-enthusiasts.com/">
@@ -40,8 +51,8 @@
 <ul>
   <li><a href="#lumley">Thomas Lumley: How flexible computing expands what an individual can do</a></li>
   <li><a href="#baddeley">Adrian Baddeley: How R has changed spatial statistics</a></li>
-  <li><a href="#lauritzen">Steffen Lauritzen: Linear estimating equations for Gaussian graphical models with symmetry</a></li>
-  <li><a href="#cook">Di Cook: A Survey of Two Decades of Efforts to Build Interactive Graphics Capacity in R</a></li>
+  <li><a href="#lauritzen">Steffen Lauritzen: Linear estimating equations for Gaussian graphical models with symmetry</a> [<a href="./presentations/invited_steffen_lauritzen.pdf">slides</a>]</li>
+  <li><a href="#cook">Di Cook: A Survey of Two Decades of Efforts to Build Interactive Graphics Capacity in R</a> [<a href="./presentations/invited_di_cook.pdf">slides</a> / <a href="./presentations/invited_di_cook.mp4">video download</a> / <a href="https://vimeo.com/132403391">video watch</a>]</li>
   <li><a href="#francois">Romain Fran&ccedil;ois: My R adventures</a></li>
   <li><a href="#holmes">Susan Holmes: Multitype data integration : challenges from the Human Microbiome</a></li>
 </ul>
@@ -49,6 +60,7 @@
 
 <div id="lumley">
   <h3>Thomas Lumley: How flexible computing expands what an individual can do</h3>
+  <p><em>Friday July 3, 09:00 - 10:00, Aalborghallen, Chair: Peter Dalgaard</em></p>
   <p>
     Design-based inference in survey statistics
     involves reimplementing everything to allow for
@@ -66,10 +78,12 @@
     inference system available, but from at least an
     order of magnitude less effort.
   </p>
+<p style="text-align: right;"><script type="text/javascript">GoBack("lumley");</script></p>
 </div>
 
 <div id="baddeley">
   <h3>Adrian Baddeley: How R has changed spatial statistics</h3>
+  <p><em>Wednesday July 1, 15:00 - 16:00, Aalborghallen, Chair: Jesper Møller</em></p>
   <p>
     The growth of R has triggered a revolution in
     the science of analysing spatial data --
@@ -80,11 +94,13 @@
     contributed package 'spatstat', which played a
     prominent role in the transformation.
   </p>
+<p style="text-align: right;"><script type="text/javascript">GoBack("baddeley");</script></p>
 </div>
 
 
 <div id="lauritzen">
   <h3>Steffen Lauritzen: Linear estimating equations for Gaussian graphical models with symmetry</h3>
+  <p><em>Friday July 3, 12:30 - 13:30, Aalborghallen, Chairs: Søren Højsgaard and Poul Svante Eriksen</em></p>
   <p>
     In models of high complexity, the computational
     burden involved in calculating the maximum
@@ -110,10 +126,12 @@
     estimates can be used for fast model selection
     in Gaussian graphical models.
   </p>
+<p style="text-align: right;"><script type="text/javascript">GoBack("lauritzen");</script></p>
 </div>
 
 <div id="cook">
   <h3>Di Cook: A Survey of Two Decades of Efforts to Build Interactive Graphics Capacity in R</h3>
+  <p><em>Thursday July 2, 09:00 - 10:00, Aalborghallen, Chair: Adrian Baddeley</em></p>
   <p>What's the difference between these two software descriptions?</p>
 	  <blockquote>
 		  Lisp-Stat is an extensible statistical
@@ -153,10 +171,12 @@
 		  interactive graphics that support data
 		  analysis.
     </p>
+<p style="text-align: right;"><script type="text/javascript">GoBack("cook");</script></p>
 </div>
 
 <div id="francois">
   <h3>Romain Fran&ccedil;ois: My R adventures</h3>
+  <p><em>Wednesday July 1, 09:00 - 10:00, Aalborghallen, Chair: Torben Tvedebrink</em></p>
   <p>
     I will review my adventure with R, from the
     early days of getting used and addicted to the
@@ -203,10 +223,12 @@
     mostly involved with, starting from dplyr,
     Rcpp11, Rcpp14.
   </p>
+<p style="text-align: right;"><script type="text/javascript">GoBack("francois");</script></p>
 </div>
 
 <div id="holmes">
   <h3>Susan Holmes: Multitype data integration : challenges from the Human Microbiome</h3>
+  <p><em>Thursday July 2, 15:00 - 16:00, Aalborghallen, Chair: Steffen Lauritzen</em></p>
   <p>
     Using the flexibility of multicomponent objects,
     we have developed phyloseq: a Bioconductor
@@ -227,5 +249,6 @@
 	  This is joint work with Joey McMurdie and Ben
 	  Callahan.
   </p>
+<p style="text-align: right;"><script type="text/javascript">GoBack("holmes");</script></p>
 </div>
 

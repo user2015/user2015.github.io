@@ -16,7 +16,6 @@
 		<li>Poul Svante Eriksen - Department of Mathematical Sciences.</li>
 		<li><a href="http://people.math.aau.dk/~rubak">Ege Rubak</a> - Department of Mathematical Sciences.</li>
 		<li>Mateusz 'Matt' Dziubinski - Department of Mathematical Sciences.</li>
-		<li><a href="http://people.math.aau.dk/~kkb">Kasper Berthelsen</a> - Novo Nordisk.</li>
 		<li>Claus Dethlefsen - Novo Nordisk.</li>
 		<li>Maria Rodrigo-Domingo - Aalborg University Hospital.</li>
 		<li>Rikke N&oslash;rmark Mortensen - Department of Health Science and Technology.</li>

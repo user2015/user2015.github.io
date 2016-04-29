@@ -1,40 +1,293 @@
 <h1>Tutorials</h1>
 <p>   The
-      following 16 tutorials will be offered free of charge to
+      following 16 tutorials will be offered <b>free of charge</b> to
       the useR! 2015 participants on Tutorial Tuesday,
       June 30. The duration of each tutorial will be 3
       hours.  There will 8 tutorials in the morning session
       and 8 in the afternoon session.
 </p>
 
+<p>The tutorials are given on a <b>first-come first-served</b> basis.
+Hence, you just show up on Tutorial Tuesday, register and participate.
+The tutorial rooms should be sufficiently big to seat everybody (see below).
+During Tutorial Tuesday coffee, fruit, water, soft drinks, cake and sandwiches
+are served to the participants (included in the registration).
+</p>
 
 <h2>List of tutorials</h2>
 	
 <p>For elaborate descriptions of the tutorials please
 	click on the tutorial titles.</p>
 
+<h3 id="morning">Morning session</h3>
+The following 8 tutorials are offered during the morning session (09:00 - 12:00):
 <ul>
-  <li><a href="#tessera">Analysis and Visualization of Large Complex Data with Tessera (<i>Ryan Hafen and Stephen Elston</i>)</a></li>
-  <li><a href="#mlr">Applied Machine Learning and Efficient Model Selection with <tt>mlr</tt> (<i>Bernd Bischl and Michel Lang</i>)</a></li>
-  <li><a href="#appliedspatial">Applied Spatial Data Analysis with R (<i>Virgilio G&oacute;mez Rubio</i>)</a></li>
-  <li><a href="#BN">Bayesian Networks and Graphical Models with R (<i>S&oslash;ren H&oslash;jsgaard and Therese Graversen</i>)</a></li>
-  <li><a href="#bioconductor">Bioconductor for high-throughput sequence analysis (<i>Martin Morgan</i>)</a></li>
-  <li><a href="#dplyr">Data manipulation with <tt>dplyr</tt> (<i>Hadley Wickham</i>)</a></li>
-  <li><a href="#baker">Efficient statistical consulting using R Workflow for data analysis projects (<i>Peter Baker</i>)</a></li>
-  <li><a href="#grid">Getting to Know Grid Graphics (<i>Paul Murrell</i>)</a></li>
-  <li><a href="#missing">Handling missing values with a special focus on the use of principal components methods (<i>Julie Josse and Fran&ccedil;ois Husson</i>)</a></li>
-  <li><a href="#bayes">Introduction to Bayesian Data Analysis with R (<i>Rasmus B&aring;&aring;th</i>)</a></li>
-  <li><a href="#RHadoop">RHadoop (<i>Andrie de Vries and Simon Field</i>)</a></li>
-  <li><a href="#rocker">Rocker: Using R on Docker (<i>Dirk Eddelbuettel</i>)</a></li>
-  <li><a href="#spatstat"><tt>spatstat</tt>: An R package for analysing spatial point patterns (<i>Adrian Baddeley and Ege Rubak</i>)</a></li>
-  <li><a href="#network">Statistical analysis of network data (<i>Gabor Csardi</i>)</a></li>
-  <li><a href="#test">Testing R Code (<i>Richard J. Cotton</i>)</a></li>
-  <li><a href="#pandoc">Using Pandoc's markdown with R (<i>Gergely Dar&oacute;czi</i>)</a></li>
+  <li><a href="#appliedspatial">Applied Spatial Data Analysis with R (<i>Virgilio G&oacute;mez Rubio</i>)</a> - 
+[<strong><a href="http://www.uclm.es/profesorado/vgomez/useR2015">material @ www</a></strong>] - <em>Room: Bondestuen (36 seats)</em></li>
+  <li><a href="#BN">Bayesian Networks and Graphical Models with R (<i>S&oslash;ren H&oslash;jsgaard and Therese Graversen</i>)</a> - [<strong><a href="http://people.math.aau.dk/~sorenh/software/gR/index.html">material @ www</a></strong>] - <em>Room: Latinerstuen (42 seats)</em></li>
+  <li><a href="#dplyr">Data manipulation with <tt>dplyr</tt> (<i>Hadley Wickham</i>)</a> - 
+[<strong><a href="presentations/tutorial-wickham.zip">material as zip</a></strong>] - <em>Room: Det lille Teater (224 seats)</em></li>
+  <li><a href="#baker">Efficient statistical consulting using R Workflow for data analysis projects (<i>Peter Baker</i>)</a> - 
+[<strong><a href="https://github.com/petebaker/dryworkflow">material @ www</a></strong>] - <em>Room: Musiksalen (102 seats)</em></li>
+  <li><a href="#missing">Handling missing values with a special focus on the use of principal components methods (<i>Fran&ccedil;ois Husson</i>)</a> - [<strong><a href=" http://math.agrocampus-ouest.fr/infoglueDeliverLive/membres/Francois.Husson/teaching?languageId=1 ">material @ www</a></strong>] - <em>Room: Harlekinsalen (30 seats)</em></li>
+  <li><a href="#Rhadoop">RHadoop (<i>Andrie de Vries and Simon Field</i>)</a> - [<strong><a href="https://github.com/andrie/RHadoop-tutorial/">material @ www</a></strong>] - <em>Room: Radiosalen (144 seats)</em></li>
+  <li><a href="#rocker">Rocker: Using R on Docker (<i>Dirk Eddelbuettel</i>)</a> - [<strong><a href="http://dirk.eddelbuettel.com/papers/useR2015_docker.pdf">material as pdf</a></strong>] - <em>Room: Laugsstuen (60 seats)</em></li>
+  <li><a href="#network">Statistical analysis of network data (<i>Gabor Csardi</i>)</a> - [<strong><a href="https://github.com/igraph/netuser15">material @ www</a></strong>] - <em>Room: Gæstesalen (90 seats)</em></li>
 </ul>
 
+<h3 id="afternoon">Afternoon session</h3>
+The following 8 tutorials are offered during the afternoon session (13:30 - 16:30):
+<ul>
+  <li><a href="#tessera">Analysis and Visualization of Large Complex Data with Tessera (<i>Ryan Hafen and Stephen Elston</i>)</a> - [<strong><a href="http://tessera.io/docs-UseR2015/">material @ www</a></strong>] - <em>Room: Gæstesalen (90 seats)</em></li>
+  <li><a href="#mlr">Applied Machine Learning and Efficient Model Selection with <tt>mlr</tt> (<i>Bernd Bischl and Michel Lang</i>)</a> - 
+[<strong><a href="http://mlr-org.github.io/mlr-tutorial/release/html/">material @ www</a></strong>] - <em>Room: Musiksalen (102 seats)</em></li>
+  <li><a href="#bioconductor">Bioconductor for high-throughput sequence analysis (<i>Martin Morgan</i>)</a> - [<strong><a href="http://bioconductor.org/help/course-materials/ ">material @ www</a> (search useR! 2015): <a href="http://bioconductor.org/help/course-materials/2015/useR/bioc-for-sequence-analysis.html">talk</a>, <a href="http://bioconductor.org/help/course-materials/2015/useR/ad-hoc-exercises.html">lab</a>, <a href="https://github.com/Bioconductor/useR2015">Github</a></strong>] - <em>Room: Latinerstuen (42 seats)</em></li>
+  <li><a href="#grid">Getting to Know Grid Graphics (<i>Paul Murrell</i>)</a> - [<strong><a href="https://www.stat.auckland.ac.nz/~paul/useR2015-grid/">material @ www</a></strong>] - <em>Room: Laugsstuen (60 seats)</em></li>
+  <li><a href="#bayes">Introduction to Bayesian Data Analysis with R (<i>Rasmus B&aring;&aring;th</i>)</a> - [<strong><a href="http://sumsar.net/blog/2015/07/hygge-at-user-2015/#tutorial-introduction-to-bayesian-data-analysis-with-r">material @ www</a></strong>] - <em>Room: Radiosalen (144 seats)</em></li>
+  <li><a href="#spatstat"><tt>spatstat</tt>: An R package for analysing spatial point patterns (<i>Adrian Baddeley and Ege Rubak</i>)</a> - [<strong><a href="http://spatstat.github.io/useR2015/">material @ www</a></strong>] - <em>Room: Harlekinsalen (30 seats)</em></li>
+  <li><a href="#test">Testing R Code (<i>Richard J. Cotton</i>)</a> - [<strong><a href="./presentations/tutorial-cotton-testing-r-code.zip">material as zip</a></strong>] - <em>Room: Det lille Teater (224 seats)</em></li>
+  <li><a href="#pandoc">Using Pandoc's markdown with R (<i>Gergely Dar&oacute;czi</i>)</a> - [<strong><a href="https://github.com/daroczig/user2015-markdown-tutorial">material @ www</a></strong>] - <em>Room: Bondestuen (36 seats)</em></li>
+</ul>
+
+<h2>Morning session tutorials</h2>
+
+<div id="appliedspatial">
+  <h3>Applied Spatial Data Analysis with R (<i>Virgilio G&oacute;mez Rubio</i>)</h3>
+  <p><em>Room: Bondestuen (36 seats)</em></p>
+  <p>
+		  This tutorial is aimed at researchers which
+		  have to deal with the analysis of spatial
+		  data. The tutorial will tackle the problem
+		  of analysing spatial data with the R
+		  programming language. Different types of
+		  spatial data will be covered, such as point
+		  patterns, lattice data and data coming from
+		  irregular measurements of continuous
+		  processes (geostatistics). In addition,
+		  different worked examples will be presented
+		  showing how to proceed with the analysis of
+		  a wide range of spatial data sets.
+		</p>
+		<p>The topics of the course will contain an
+		  introduction to various R packages for the
+		  analysis of spatial data.  This includes
+		  data import/export, data management and
+		  visualisation, and how to fit a broad range
+		  of models for spatial data. The worked
+		  examples will focus on particular real data
+		  sets from Epidemiology, Environmental
+		  Sciences, Ecology, Economics and others.
+		</p>
+		<p>URL: <a href="http://www.uclm.es/profesorado/vgomez/useR2015" target="_blank">http://www.uclm.es/profesorado/vgomez/useR2015</a></p>
+<p>Full length description: <a href="./docs/tutorials/applied_spatial_stat.pdf">Applied Spatial Data Analysis with R</a></p>
+</div>
+
+<div id="BN">
+  <h3>Bayesian Networks and Graphical Models with R (<i>S&oslash;ren H&oslash;jsgaard and Therese Graversen</i>)</h3>
+  <p><em>Room: Latinerstuen (42 seats)</em></p>
+  <p>We introduce Bayesian Networks (BNs) and their implementation in the
+	  gRain package. Topics will include probability propagation in BNs and
+	  aspects of learning BNs from data.</p>
+	<p>Examples from genetics will be used throughout for
+	  illustrative purposes. Moreover, there will be a
+	  running example about building a BN for a medical
+	  diagnosis from real-world data.</p>
+	<p>Attendees are assumed to have a working
+	  understanding of log-linear models for contingency
+	  tables. Relevant literature includes: Højsgaard,
+	  S.; Edwards, D.; Lauritzen, S. (2012): Graphical
+	  models with R, Springer</p>
+<p>Full length description: <a href="./docs/tutorials/graphical_bayes.pdf">Bayesian Networks and Graphical Models with R</a></p>
+</div>
+
+<div id="dplyr">
+  <h3>Data manipulation with <tt>dplyr</tt> (<i>Hadley Wickham</i>)</h3>
+  <p><em>Room: Det lille Teater (224 seats)</em></p>
+  <p>
+      Data manipulation is a key part of any data
+	    analysis, crucial for interactive exploration and
+	    as a precursor for visualisation and
+	    modelling. The dplyr package makes it easy to
+	    express the most common manipulation operations in
+	    natural way, built around verbs like `filter()`,
+	    `mutate()`, `group_by()` and `summarise()`. In
+	    this tutorial, you'll learn dplyr in an
+	    interactive setting, with plenty of hands-on
+	    activities.
+  </p>
+<p>Full length description: <a href="./docs/tutorials/dplyr.pdf">Data manipulation with <tt>dplyr</tt></a></p>
+</div>
+
+<div id="baker">
+  <h3>Efficient statistical consulting using R Workflow for data analysis projects (<i>Peter Baker</i>)</h3>
+  <p><em>Room: Musiksalen (102 seats)</em></p>
+    <p>Many researchers and statistical consultants are
+	    drowning in data. This tutorial provides a
+	    hands-on introduction to strategies for the
+	    workflow of research data management and data
+	    analysis. While loosely based on the manual
+	    approaches of Long (2009) "The Workflow of Data
+	    Analysis Using STATA", a more automated strategy
+	    will be outlined. One approach is to
+	    systematically employ computing tools like 'R',
+	    'git' and 'make' to assist in this process. These
+	    tools will be incorporated into the practical
+		  exercises.</p>
+		<p>R is ideal for automating repetitive tasks since,
+	    in addition to thousands of built-in functions, it
+	    is easy to write your own. Such functions can be
+	    used for diverse tasks such as setting up project
+	    directories and R syntax files, checking data
+	    against code books, repeating custom analyses and
+	    extracting results for reproducible reporting to
+	    HTML, Word or pdf formats. 'make' keeps track of
+	    the dependencies in the process and allows the
+	    workflow to be broken down into smaller chunks
+	    like reading data, checking, analysing and
+	    reporting. Only the updated steps in this workflow
+	    are re-run. Finally, git safely allows analysts to
+	    try new ideas but revert to previous versions of R
+	    scripts or reports without needing multiple
+	    versions.</p>
+<p>Full length description: <a href="./docs/tutorials/dry.pdf">Efficient statistical consulting using R Workflow for data analysis projects</a></p>
+</div>
+
+<div id="missing">
+  <h3>Handling missing values with a special focus on the use of principal components methods (<i>Fran&ccedil;ois Husson</i>)</h3>
+  <p><em>Room: Harlekinsalen (30 seats)</em></p>
+    <p>Handling missing values is certainly the most
+	    thankless task for a practitioner in statistics
+	    but unfortunately it is a very common task.</p>
+	  <p>This tutorial describes and compares several
+	    methods to handle missing values in data sets with
+	    continuous, categorical or mixed
+	    variables. Principal component methods as well as
+	    random forests or methods based on joint or
+	    conditional modelling will be used first to
+	    perform single imputation, but also to perform
+	    multiple imputation to take into account the
+		  variability that exists on each imputed value.</p>
+	  <p>The different methods will be illustrated with
+	    numerous examples from different fields such as
+	    genomics (human tumor data), sensometrics (wine
+	    data) and survey (questionnaire data) and we will
+	    use the R packages Amelia, MICE and missMDA.</p>
+<p>Full length description: <a href="./docs/tutorials/missingPCA.pdf">Handling missing values with a special focus on the use of principal components methods</a></p>
+</div>
+
+<div id="Rhadoop">
+  <h3>RHadoop (<i>Andrie de Vries and Simon Field</i>)</h3>
+  <p><em>Room: Radiosalen (144 seats)</em></p>
+  <p>
+      Using Hadoop for big data is a much-hyped
+	    technology. Originally developed by companies with
+	    web-scale data, Hadoop is increasingly being
+	    evaluated by IT departments in many other
+	    industries.  The R data scientist must know how to
+	    modify algorithms to use of the Hadoop map-reduce
+	    paradigm. Fortunately, R has many features of
+	    functional languages, for example lapply() which
+	    is a simple example of the philosophy of
+	    map-reduce. This makes it comparatively easy for
+	    an R user to understand the map-reduce idea. The
+	    RHadoop project is an abstraction layer around the
+	    Hadoop map-reduce paradigm and HDFS file system,
+	    meaning you can focus on writing R code, rather
+	    than learning Java.  This tutorial introduces
+	    RHadoop to data scientists new to Hadoop. We do a
+	    gentle introduction of terminology, develop the
+	    prototypical word count example, and then
+	    illustrate distributed computing concepts such as
+	    k-means clustering and linear regression on
+	    distributed data.  Prior to the event, we will
+	    publish a virtual machine containing the
+	    Hortonworks Hadoop distribution, complete with R,
+	    the RHadoop packages and an RStudio IDE. This
+	    makes it easy for students to get set up and
+	    practise. We also plan to provision a Microsoft
+	    Azure Hadoop cluster to use on the day.
+  </p>
+<p>Full length description: <a href="./docs/tutorials/RHadoop.pdf">RHadoop</a></p>
+</div>
+
+<div id="rocker">
+  <h3>Rocker: Using R on Docker (<i>Dirk Eddelbuettel</i>)</h3>
+  <p><em>Room: Laugsstuen (60 seats)</em></p>
+    <p>Docker is emerging as a key technology which
+	    provides containers: easily deployable
+	    environments which are standardized, easy to share
+	    and reuse, highly portable while being light on
+	    resource usage. Docker is ideal for building,
+	    testing and deploying code---as well as for
+	    providing reproducible environments. Docker also
+	    provides hub.docker.com, a container hosting and
+	    build service interfacing Github.</p>
+		<p>The Rocker project provides the default R image
+	    for Docker as well as a number of containers
+	    extending it: use of R-devel, an RStudio instance,
+	    a container full of Hadleyverse packages and more.</p>
+		<p>The tutorial introduces basic interactive Docker
+	    use via the popular RStudio Server container,
+	    along with an introduction to committing, pushing
+	    and pulling containers. A focus on command-line
+	    mode examines Docker use in more detail, including
+	    how to share files between the host machine and
+	    the Docker instance. Finally, writing and
+	    modifying Dockerfiles for both local use and
+	    Docker Hub uploads will be discussed based on
+	    several examples from the more advanced Rocker
+	    containers.</p>
+		<p>
+	    More information is available at the
+	    <a href="https://github.com/rocker-org/rocker/wiki">Rocker
+	    wiki</a></p>
+<p>Full length description: <a href="./docs/tutorials/rocker.pdf">Rocker: Using R on Docker</a></p>
+</div>
+
+<div id="network">
+  <h3>Statistical analysis of network data (<i>Gabor Csardi</i>)</h3>
+  <p><em>Room: Gæstesalen (90 seats)</em></p>
+<p>Analysis of networks is a popular area, because of
+	    the abundance of network data, and recent
+	    methodological developments. We will cover 280
+	    years of networks, from Euler to Graphons, through
+	    a number of mathematical, algorithmic and
+	    statistical methods.</p>
+
+		Topics:
+	    <ul>
+	    <li>Why networks are interesting and important.</li>
+	    <li>Manipulating them, conversions between formats.</li>
+	    <li>Paths, searches, flows, cuts and cohesive groups.</li>
+	    <li>Centrality, from classic to spectral measures.</li>
+	    <li>Visualization, with various packages (e.g. DiagrammeR) and external tools.
+	      Visualization of large graphs using community detection.</li>
+	    <li>Finding groups in networks, community detection.</li>
+	    <li>Random graphs and their use. Classic models, stochastic block models, mixed
+	      membership stochastic block models.</li>
+	    <li>Statistical methods: embeddings, graphlets, graphons.</li>
+	    <li>Temporal networks and change-point detection.</li>
+	    </ul>
+
+		<p>For most of the tutorial we will use the igraph R package. Example
+	    code and data sets will be available to participants.</p>
+
+		<p>Target audience: statisticians and data scientists
+	    unsure what to do with their network data, or how
+	    to do it with R. Anyone wanting to get a quick
+	    taste of current network methods and tools.</p>
+
+		<p>Background knowledge required: basic R skills, at the level of any
+	    decent introductory R textbook. All network concepts will be
+	    explained.</p>
+<p>Full length description: <a href="./docs/tutorials/network.pdf">Statistical analysis of network data</a></p>
+</div>
+
+<h2>Afternoon session tutorials</h2>
 
 <div id="tessera">
   <h3>Analysis and Visualization of Large Complex Data with Tessera (<i>Ryan Hafen and Stephen Elston</i>)</h3>
+  <p><em>Room: Gæstesalen (90 seats)</em></p>
   <p>Tessera is an open source statistical computing
 	      environment that enables R users to perform deep
 	      analysis of large, complex data sets.  Analysis
@@ -53,23 +306,23 @@
 	      component, Trelliscope, which provides a D&R
 	      approach for detailed, flexible, and interactive
 	      visualization of large complex data. More
-	      details are available at <a href="http://tessera.io" target="_blank">http://tessera.io</a>.</p>
+	      details are available at <a href="http://tessera.io/docs-UseR2015/" target="_blank">http://tessera.io/docs-UseR2015/</a>.</p>
 	  <p>    
 	      In this tutorial, R users will gain hands-on
 	      experience analyzing and visualizing data with
-	      Tessera. The interactive tutorial examples are
-	      small enough to run on a modest shared cluster,
-	      which will be provided. The techniques learned
+	      Tessera. The interactive tutorial examples are small enough to run on an attendee-provided laptop.	 The techniques learned
 	      can be quickly scaled up to a larger cluster for
 	      larger data sets. Attendee-provided laptops with
 	      a modern web browser installed will be required.
   
   </p>
+<p>Full length description: <a href="./docs/tutorials/tessera.pdf">Analysis and Visualization of Large Complex Data with Tessera</a></p>
 </div>
 
 <div id="mlr">
   <h3>Applied Machine Learning and Efficient Model Selection with <tt>mlr</tt>
 		  (<i>Bernd Bischl and Michel Lang</i>)</h3>
+  <p><em>Room: Musiksalen (102 seats)</em></p>
 <p>The course will enable the participants to
 		  understand and practically apply the most
 		  important building blocks of machine
@@ -109,55 +362,12 @@
 
 		<p>Link for further details can be found on the useR2015 wiki page:
 		  <a href="https://github.com/berndbischl/mlr/wiki/useR-2015-tutorial" target="_blank">https://github.com/berndbischl/mlr/wiki/useR-2015-tutorial</a></p>
-</div>
-
-<div id="appliedspatial">
-  <h3>Applied Spatial Data Analysis with R (<i>Virgilio G&oacute;mez Rubio</i>)</h3>
-  <p>
-		  This tutorial is aimed at researchers which
-		  have to deal with the analysis of spatial
-		  data. The tutorial will tackle the problem
-		  of analysing spatial data with the R
-		  programming language. Different types of
-		  spatial data will be covered, such as point
-		  patterns, lattice data and data coming from
-		  irregular measurements of continuous
-		  processes (geostatistics). In addition,
-		  different worked examples will be presented
-		  showing how to proceed with the analysis of
-		  a wide range of spatial data sets.
-		</p>
-		<p>The topics of the course will contain an
-		  introduction to various R packages for the
-		  analysis of spatial data.  This includes
-		  data import/export, data management and
-		  visualisation, and how to fit a broad range
-		  of models for spatial data. The worked
-		  examples will focus on particular real data
-		  sets from Epidemiology, Environmental
-		  Sciences, Ecology, Economics and others.
-		</p>
-		<p>URL: <a href="http://www.uclm.es/profesorado/vgomez/useR2015" target="_blank">http://www.uclm.es/profesorado/vgomez/useR2015</a></p>
-</div>
-
-<div id="BN">
-  <h3>Bayesian Networks and Graphical Models with R (<i>S&oslash;ren H&oslash;jsgaard and Therese Graversen</i>)</h3>
-  <p>We introduce Bayesian Networks (BNs) and their implementation in the
-	  gRain package. Topics will include probability propagation in BNs and
-	  aspects of learning BNs from data.</p>
-	<p>Examples from genetics will be used throughout for
-	  illustrative purposes. Moreover, there will be a
-	  running example about building a BN for a medical
-	  diagnosis from real-world data.</p>
-	<p>Attendees are assumed to have a working
-	  understanding of log-linear models for contingency
-	  tables. Relevant literature includes: Højsgaard,
-	  S.; Edwards, D.; Lauritzen, S. (2012): Graphical
-	  models with R, Springer</p>
+<p>Full length description: <a href="./docs/tutorials/mlr.pdf">Applied Machine Learning and Efficient Model Selection with <tt>mlr</tt></a></p>
 </div>
 
 <div id="bioconductor">
   <h3> Bioconductor for high-throughput sequence analysis (<i>Martin Morgan</i>)</h3>
+  <p><em>Room: Latinerstuen (42 seats)</em></p>
   <p>
     DNA sequence analysis generates large volumes of
     data presenting challenging bioinformatic and
@@ -198,58 +408,12 @@
     use R / Bioconductor for analysis and
     comprehension of high-throughput sequence data.
   </p>
-</div>
-
-<div id="dplyr">
-  <h3>Data manipulation with <tt>dplyr</tt> (<i>Hadley Wickham</i>)</h3>
-  <p>
-      Data manipulation is a key part of any data
-	    analysis, crucial for interactive exploration and
-	    as a precursor for visualisation and
-	    modelling. The dplyr package makes it easy to
-	    express the most common manipulation operations in
-	    natural way, built around verbs like `filter()`,
-	    `mutate()`, `group_by()` and `summarise()`. In
-	    this tutorial, you'll learn dplyr in an
-	    interactive setting, with plenty of hands-on
-	    activities.
-  </p>
-</div>
-
-<div id="baker">
-  <h3>Efficient statistical consulting using R Workflow for data analysis projects (<i>Peter Baker</i>)</h3>
-    <p>Many researchers and statistical consultants are
-	    drowning in data. This tutorial provides a
-	    hands-on introduction to strategies for the
-	    workflow of research data management and data
-	    analysis. While loosely based on the manual
-	    approaches of Long (2009) "The Workflow of Data
-	    Analysis Using STATA", a more automated strategy
-	    will be outlined. One approach is to
-	    systematically employ computing tools like 'R',
-	    'git' and 'make' to assist in this process. These
-	    tools will be incorporated into the practical
-		  exercises.</p>
-		<p>R is ideal for automating repetitive tasks since,
-	    in addition to thousands of built-in functions, it
-	    is easy to write your own. Such functions can be
-	    used for diverse tasks such as setting up project
-	    directories and R syntax files, checking data
-	    against code books, repeating custom analyses and
-	    extracting results for reproducible reporting to
-	    HTML, Word or pdf formats. 'make' keeps track of
-	    the dependencies in the process and allows the
-	    workflow to be broken down into smaller chunks
-	    like reading data, checking, analysing and
-	    reporting. Only the updated steps in this workflow
-	    are re-run. Finally, git safely allows analysts to
-	    try new ideas but revert to previous versions of R
-	    scripts or reports without needing multiple
-	    versions.</p>
+<p>Full length description: <a href="./docs/tutorials/bioconductor.pdf">Bioconductor for high-throughput sequence analysis</a></p>
 </div>
 
 <div id="grid">
   <h3>Getting to Know Grid Graphics (<i>Paul Murrell</i>)</h3>
+  <p><em>Room: Laugsstuen (60 seats)</em></p>
     <p>The 'grid' graphics package provides a low-level
 	    graphics system for R.  Many R users do not have
 	    direct contact with 'grid', but they regularly
@@ -265,31 +429,12 @@
 	    viewports---and we will learn functions to
 	    explore, access, and manipulate grobs and
 	    viewports.</p>
-</div>
-
-<div id="missing">
-  <h3>Handling missing values with a special focus on the use of principal components methods (<i>Julie Josse and Fran&ccedil;ois Husson</i>)</h3>
-    <p>Handling missing values is certainly the most
-	    thankless task for a practitioner in statistics
-	    but unfortunately it is a very common task.</p>
-	  <p>This tutorial describes and compares several
-	    methods to handle missing values in data sets with
-	    continuous, categorical or mixed
-	    variables. Principal component methods as well as
-	    random forests or methods based on joint or
-	    conditional modelling will be used first to
-	    perform single imputation, but also to perform
-	    multiple imputation to take into account the
-		  variability that exists on each imputed value.</p>
-	  <p>The different methods will be illustrated with
-	    numerous examples from different fields such as
-	    genomics (human tumor data), sensometrics (wine
-	    data) and survey (questionnaire data) and we will
-	    use the R packages Amelia, MICE and missMDA.</p>
+<p>Full length description: <a href="./docs/tutorials/gridgraphics.pdf">Getting to Know Grid Graphics</a></p>
 </div>
 
 <div id="bayes">
   <h3>Introduction to Bayesian Data Analysis with R (<i>Rasmus B&aring;&aring;th</i>)</h3>
+  <p><em>Room: Radiosalen (144 seats)</em></p>
 <p>Bayesian data analysis is a powerful technique for
 	    model inference and prediction, and R is the tool
 	    that makes this easy. This tutorial is a general
@@ -314,75 +459,12 @@
 	    it will be necessary for you to know your way
 	    around R and to be comfortable manipulating
 	    vectors and data frames.</p>
-</div>
-
-<div id="Rhadoop">
-  <h3>RHadoop (<i>Andrie de Vries and Simon Field</i>)</h3>
-  <p>
-      Using Hadoop for big data is a much-hyped
-	    technology. Originally developed by companies with
-	    web-scale data, Hadoop is increasingly being
-	    evaluated by IT departments in many other
-	    industries.  The R data scientist must know how to
-	    modify algorithms to use of the Hadoop map-reduce
-	    paradigm. Fortunately, R has many features of
-	    functional languages, for example lapply() which
-	    is a simple example of the philosophy of
-	    map-reduce. This makes it comparatively easy for
-	    an R user to understand the map-reduce idea. The
-	    RHadoop project is an abstraction layer around the
-	    Hadoop map-reduce paradigm and HDFS file system,
-	    meaning you can focus on writing R code, rather
-	    than learning Java.  This tutorial introduces
-	    RHadoop to data scientists new to Hadoop. We do a
-	    gentle introduction of terminology, develop the
-	    prototypical word count example, and then
-	    illustrate distributed computing concepts such as
-	    k-means clustering and linear regression on
-	    distributed data.  Prior to the event, we will
-	    publish a virtual machine containing the
-	    Hortonworks Hadoop distribution, complete with R,
-	    the RHadoop packages and an RStudio IDE. This
-	    makes it easy for students to get set up and
-	    practise. We also plan to provision a Microsoft
-	    Azure Hadoop cluster to use on the day.
-  </p>
-</div>
-
-<div id="rocker">
-  <h3>Rocker: Using R on Docker (<i>Dirk Eddelbuettel</i>)</h3>
-    <p>Docker is emerging as a key technology which
-	    provides containers: easily deployable
-	    environments which are standardized, easy to share
-	    and reuse, highly portable while being light on
-	    resource usage. Docker is ideal for building,
-	    testing and deploying code---as well as for
-	    providing reproducible environments. Docker also
-	    provides hub.docker.com, a container hosting and
-	    build service interfacing Github.</p>
-		<p>The Rocker project provides the default R image
-	    for Docker as well as a number of containers
-	    extending it: use of R-devel, an RStudio instance,
-	    a container full of Hadleyverse packages and more.</p>
-		<p>The tutorial introduces basic interactive Docker
-	    use via the popular RStudio Server container,
-	    along with an introduction to committing, pushing
-	    and pulling containers. A focus on command-line
-	    mode examines Docker use in more detail, including
-	    how to share files between the host machine and
-	    the Docker instance. Finally, writing and
-	    modifying Dockerfiles for both local use and
-	    Docker Hub uploads will be discussed based on
-	    several examples from the more advanced Rocker
-	    containers.</p>
-		<p>
-	    More information is available at the
-	    <a href="https://github.com/rocker-org/rocker/wiki">Rocker
-	    wiki</a></p>
+<p>Full length description: <a href="./docs/tutorials/bayes.pdf">Introduction to Bayesian Data Analysis with R</a></p>
 </div>
 
 <div id="spatstat">
   <h3><tt>spatstat</tt>: An R package for analysing spatial point patterns (<i>Adrian Baddeley and Ege Rubak</i>)</h3>
+  <p><em>Room: Harlekinsalen (30 seats)</em></p>
   <p>
       This tutorial will enable participants to analyse
 	    spatial point pattern data using the contributed
@@ -401,47 +483,12 @@
 	    last few years, so current spatstat users wanting
 	    a brush-up are also encouraged to participate.
   </p>
-</div>
-
-<div id="network">
-  <h3>Statistical analysis of network data (<i>Gabor Csardi</i>)</h3>
-<p>Analysis of networks is a popular area, because of
-	    the abundance of network data, and recent
-	    methodological developments. We will cover 280
-	    years of networks, from Euler to Graphons, through
-	    a number of mathematical, algorithmic and
-	    statistical methods.</p>
-
-		Topics:
-	    <ul>
-	    <li>Why networks are interesting and important.</li>
-	    <li>Manipulating them, conversions between formats.</li>
-	    <li>Paths, searches, flows, cuts and cohesive groups.</li>
-	    <li>Centrality, from classic to spectral measures.</li>
-	    <li>Visualization, with various packages (e.g. DiagrammeR) and external tools.
-	      Visualization of large graphs using community detection.</li>
-	    <li>Finding groups in networks, community detection.</li>
-	    <li>Random graphs and their use. Classic models, stochastic block models, mixed
-	      membership stochastic block models.</li>
-	    <li>Statistical methods: embeddings, graphlets, graphons.</li>
-	    <li>Temporal networks and change-point detection.</li>
-	    </ul>
-
-		<p>For most of the tutorial we will use the igraph R package. Example
-	    code and data sets will be available to participants.</p>
-
-		<p>Target audience: statisticians and data scientists
-	    unsure what to do with their network data, or how
-	    to do it with R. Anyone wanting to get a quick
-	    taste of current network methods and tools.</p>
-
-		<p>Background knowledge required: basic R skills, at the level of any
-	    decent introductory R textbook. All network concepts will be
-	    explained.</p>
+<p>Full length description: <a href="./docs/tutorials/spatstat.pdf"><tt>spatstat</tt>: An R package for analysing spatial point patterns</a></p>
 </div>
 
 <div id="test">
   <h3>Testing R Code (<i>Richard J. Cotton</i>)</h3> 
+  <p><em>Room: Det lille Teater (224 seats)</em></p>
       The tutorial aims to educate participants in three things:
 	    <ol>
 	      <li>How to write R code that is easy to test and maintain.</li>
@@ -465,10 +512,12 @@
 	    developers, but no experience in this is assumed.
 	    There will be lots of practical examples.
     </p>
+<p>Full length description: <a href="./docs/tutorials/testing_code.pdf">Testing R Code</a></p>
 </div>
 
 <div id="pandoc">
   <h3>Using Pandoc's markdown with R (<i>Gergely Dar&oacute;czi</i>)</h3>
+  <p><em>Room: Bondestuen (36 seats)</em></p>
   <p>
       Markdown is getting more and more popular among R users, especially in
 	    literate programming and report generation. This tutorial will start
@@ -479,6 +528,7 @@
 	    those to various file formats, such as PDF, HTML, odt or docx. No
 	    previous knitr or markdown knowledge is required to attend.
   </p>
+<p>Full length description: <a href="./docs/tutorials/pandocR.pdf">Using Pandoc's markdown with R</a></p>
 </div>
 
 
